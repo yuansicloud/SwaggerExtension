@@ -6,7 +6,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>YSCloud</Authors>
     <Description>An helper module that optimize experience with Swagger for .Net Developers</Description>
-    <PackageIconUrl>https://avatars.githubusercontent.com/u/84885973?s=400&u=3a3f4408d5accc49675b91651eca7fa8dd5d3c5f&v=4</PackageIconUrl>
+    <PackageIconUrl>https://avatars.githubusercontent.com/u/84885973?s=128</PackageIconUrl>
     <PackageProjectUrl>https://github.com/yuansicloud/SwaggerExtension</PackageProjectUrl>
     <RepositoryUrl>https://github.com/yuansicloud/SwaggerExtension</RepositoryUrl>
     <PackageTags>Swagger .Net</PackageTags>
