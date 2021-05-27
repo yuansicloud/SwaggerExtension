@@ -36,10 +36,7 @@ jobs:
       - name: remove unused packages
         run: |
           cd dest
-          del * -Exclude EasyAbp.*
           del * -Exclude *.${{ steps.getVersion.outputs.first_match }}.nupkg
-          del *.HttpApi.Client.ConsoleTestApp*
-          del *.Host.Shared*
           dir -name
 
       - name: dotnet nuget push to GitHub
