@@ -1,6 +1,5 @@
 ﻿using Microsoft.OpenApi.Models;
 using SwaggerExtension.Helpers;
-using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
 using System;

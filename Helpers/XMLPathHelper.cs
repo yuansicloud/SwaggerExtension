@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.PlatformAbstractions;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,7 +13,7 @@ namespace SwaggerExtension.Helpers
         {
             get
             {
-                var basePath = PlatformServices.Default.Application.ApplicationBasePath;
+                var basePath = AppContext.BaseDirectory;
 
                 string[] files = Directory.GetFiles(basePath, "*.xml", SearchOption.TopDirectoryOnly);
 
